@@ -1,0 +1,29 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variaveis*/
+
+:root {
+    --RosaClaro: #e6e6e6;
+    --Roxoclaro: #d9d9d9;
+    --RoxoMedio: #f1f1f1;
+}
+/*Layout*/
+.container,main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+    font-family: "Merriweather", serif;
+}
