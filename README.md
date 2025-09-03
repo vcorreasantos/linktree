@@ -13,6 +13,3 @@ Um projeto minimalista que reproduz o estilo do Linktree usando apenas HTML e CS
 
 ## Autor
 Vitoria Cristina Correa dos Santos
-
-
-img/printTela.png
