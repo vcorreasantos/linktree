@@ -1,29 +1,26 @@
-/*CSS Reset*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Variaveis*/
-
-:root {
-    --RosaClaro: #e6e6e6;
-    --Roxoclaro: #d9d9d9;
-    --RoxoMedio: #f1f1f1;
-}
 /*Layout*/
-.container,main {
+.container {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-html {
-    font-size: 16px;
-
+.vermelho {
+    width: 256px;
+    height: 256px;
+    background: #ff0000;
 }
 
-body {
-    font-family: "Merriweather", serif;
+.verde {
+    width: 300px;
+    height: 200px;
+    background-color: #00ff00;
+}
+
+.azul {
+    width: 256px;
+    height: 256px;
+    background-color: #0000ff;
 }

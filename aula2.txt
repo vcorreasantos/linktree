@@ -1,0 +1,88 @@
+Aula 2 
+
+Material de apoio: Slides
+https://github.com/professorjosedeassis/html5css3
+
+CSS Cascading Style Sheets (Folha de estilo em cascata)
+CSS é usado para formatar o documento html 
+
+CSS inline (dentro da tag html)
+CSS vinculado ao proprio documento html <style><style/>
+CSS separado em uma folha de estilo (recomendado) manutençao simplifica
+(Se fizer com o chat pede pra ele tirar a folha de estilo)
+
+Para criar a folha de estilo automaticamente no VScode, digitar: Link:css e depois <ctrl><click> 
+
+index.html --- style.css 
+ 
+CSS Flexbox é uma tecnica moderna usando em layouts responsivos para adaptar o conteúdo aos diversos tipos de tela.
+
+Passo 1: Criar uma div atribuindo uma classe de nome container
+
+obs: Uma classe é um indentificador usado nos elementos html podendo ser reutilizada (.)
+
+Atalho VScode: div.container
+
+_______________________________________________________________________________________________
+CSS
+
+/*comentario*/
+
+Para criar um estilo CSS, usamos o nome:
+ <tag>
+  . (classe)
+  # id 
+
+  O CSS trabalha com o conceito de caixa (box-model)
+
+width
+---------------------------
+margin
+   border
+      padding
+          <tag>      heigh
+      padding
+    border
+margin 
+----------------------------
+
+width: largura
+heigh: altura
+
+Cores: Usar código hexadecimal
+
+_________________________________________________________________________________
+
+tag <img> (nao fecha)
+propriedade src (caminho até a imagem)
+propriedade alt (descrição da imagem) ** Importante!
+
+tag <a href=""></a>
+Usada para:
+- link para outras urls
+- link interno 
+- para fazer dowloads de documentos e arquivos (ex: PDF)
+
+Obs: 
+target="_blank (abre o link em uma nova aba no navegador)
+<a href=""><img src="" alt=""></a> (imagem clicavel)
+
+Dica VScode:
+a
+a>img  
+a*4 (criar 4 tags)
+a>img (criar uma imagem clicavel)
+a>img*5 (criar 5 imagens clicáveis)
+
+_________________________________________________________________________________
+
+Tipos de fonte para texto -recomendado usar um CDN (Content Delivery Network "Repositorio de fontes")
+
+Recomendado: google fonts 
+
+CSS reset (para padronizar o estilo nos diferentes navegadores)
+ box-sizing: border-box; (definir o tamanho absoluto do elemento sem levar em conta bordas e espaçamentos)
+
+ Definição de variavéis para Cores para facilitar o desenvolvimento e manutenção do site 
+
+ 
